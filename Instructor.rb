@@ -1,15 +1,19 @@
-require Person.rb
+require "./Person.rb"
 
 
 class Instructor < Person
 
-def initialize
+def initialize(name)
   super
 end
 
 
 def teach
   puts "Everything in Ruby is an object."
+end
+
+def greeting
+  super
 end
 
 

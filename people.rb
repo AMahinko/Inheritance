@@ -1,6 +1,6 @@
 require "./Student.rb"
-require "./Teacher.rb"
+require "./Instructor.rb"
 
 
-Student("Christina")
-Instructor.new("Chris")
+christina = Student.new("Christina")
+chris = Instructor.new("Chris")
