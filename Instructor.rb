@@ -1,5 +1,11 @@
-class Instructor
+require Person.rb
 
+
+class Instructor < Person
+
+def initialize
+  super
+end
 
 
 def teach

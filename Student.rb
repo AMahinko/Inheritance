@@ -1,4 +1,10 @@
-class Student
+require Person.rb
+
+class Student < Person
+
+  def initialize
+    super
+  end
 
 
 def learn
